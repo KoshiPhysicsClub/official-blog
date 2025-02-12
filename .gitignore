@@ -1,0 +1,12 @@
+# Node.js関連
+node_modules/
+package-lock.json
+
+# Hugoのビルドファイル
+public/
+.hugo_build.lock
+.cache/
+resources/
+
+# ローカル環境用ファイル
+.DS_Store
