@@ -1,8 +1,8 @@
 baseURL = "https://example.com"
-title = "Blonde"
-author = "wamo"
-languageCode = "en"
-DefaultContentLanguage = "en"
+title = "高志高校サイエンス物理部"
+author = "KoshiPhysicsClub"
+languageCode = "jp"
+DefaultContentLanguage = "jp"
 enableInlineShortcodes = true
 theme = "Blonde"
 enableRobotsTXT = true
@@ -11,10 +11,7 @@ enableRobotsTXT = true
 #hasCJKLanguage = true
 
 # If you're using Google Analytics, you can enable this feature.
-#googleAnalytics = "G-1234567890"
-
-# Disqus Comment System
-#disqusShortname = ""
+#googleAnalytics = ""
 
 [params]
 # Base color of the website.
@@ -22,7 +19,7 @@ enableRobotsTXT = true
 base_color = "bg-gray-800"
 
 #Site description
-description = "Blonde theme for Hugo."
+description = "福井県立高志高校にある部活、サイエンス物理部のホームページ"
 
 # The number of articles to be displayed on a single page.
 paginator_pages = "5"
@@ -36,6 +33,8 @@ tagsLimit = 20
 # Dark mode by default : dark
 # Light mode by default : light
 darkmode = "light"
+
+mainSections = ["post"]
 
   [params.ad]
     # Google AdSense
@@ -130,3 +129,6 @@ archive = "archives"
 
   [services.twitter]
     disableInlineCSS = true
+
+[permalinks]
+  page = "/:year/:month/:day/:slug/"

@@ -1,6 +1,7 @@
 ---
 draft: false
 title: About
+type: "about"
 ---
 # 高志高校サイエンス物理部が運営する、公式サイト
 cloudflare Pagesやhugoなどを使用して、作成しました。
