@@ -10,3 +10,5 @@ resources/
 
 # ローカル環境用ファイル
 .DS_Store
+
+.env
