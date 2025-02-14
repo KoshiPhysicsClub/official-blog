@@ -12,8 +12,7 @@
     "watch:hugo": "hugo server",
     "build": "tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css && hugo --minify --baseURL \"$URL\""
   },
-  "dependencies": {
-    "tailwindcss": "^4.0.6",
+  "devDependencies": {
     "@tailwindcss/postcss": "^4.0.6",
     "@tailwindcss/typography": "^0.5.7",
     "autoprefixer": "^10.4.11",
