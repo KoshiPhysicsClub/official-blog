@@ -1,3 +1,6 @@
 [submodule "themes/blonde"]
 	path = themes/blonde
 	url = https://github.com/opera7133/blonde.git
+[submodule "themes/mainroad"]
+    path = themes/mainroad
+    url = https://github.com/Vimux/Mainroad.git
