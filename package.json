@@ -8,9 +8,9 @@
   "license": "MIT",
   "scripts": {
     "start": "concurrently npm:watch:*",
-    "watch:tw": "./node_modules/tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css --watch",
+    "watch:tw": "npx tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css --watch",
     "watch:hugo": "hugo server",
-    "build": "./node_modules/tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css && hugo --minify --baseURL \"$URL\""
+    "build": "npx tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css && hugo --minify --baseURL \"$URL\""
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.6",
