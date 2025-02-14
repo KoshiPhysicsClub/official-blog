@@ -8,16 +8,18 @@
   "license": "MIT",
   "scripts": {
     "start": "concurrently npm:watch:*",
-    "watch:tw": "tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css --watch",
+    "watch:tw": "npx @tailwindcss/cli -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css --watch",
     "watch:hugo": "hugo server",
-    "build": "tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css && hugo --minify"
+    "build": "npx @tailwindcss/cli -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css && hugo --minify"
   },
-  "devDependencies": {
+  "dependencies": {
     "@tailwindcss/typography": "^0.5.7",
+    "@tailwindcss/postcss": "^4.0.6",
+    "@tailwindcss/cli": "^4.0.6",
     "autoprefixer": "^10.4.11",
     "concurrently": "^9.0.0",
     "postcss": "^8.4.16",
     "postcss-cli": "^11.0.0",
-    "tailwindcss": "^4.0.1"
+    "tailwindcss": "^4.0.6"
   }
 }
